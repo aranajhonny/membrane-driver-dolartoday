@@ -1,5 +1,5 @@
 {
-  "name": "membrane-driver-dolartoday",
+  "name": "dolartoday",
   "version": "1",
   "dependencies": {
     "axios": "^0.18.0"
