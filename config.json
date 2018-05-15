@@ -21,40 +21,12 @@
     "name": "Dolar",
     "fields": [
      {
-      "name": "USD",
-      "type": "USD"
-     },
-     {
-      "name": "EUR",
-      "type": "EUR"
-     }
-    ],
-    "computedFields": [],
-    "actions": [],
-    "events": []
-   },
-   {
-    "name": "USD",
-    "fields": [
-     {
       "name": "dolartoday",
-      "type": "String"
+      "type": "Float"
      },
      {
       "name": "bitcoin",
-      "type": "String"
-     }
-    ],
-    "computedFields": [],
-    "actions": [],
-    "events": []
-   },
-   {
-    "name": "EUR",
-    "fields": [
-     {
-      "name": "dolartoday",
-      "type": "String"
+      "type": "Float"
      }
     ],
     "computedFields": [],
