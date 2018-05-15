@@ -5,7 +5,7 @@ schema.type('Root')
 
 schema.type('Dolar')
   .field('USD', 'USD')
-  .field('USD', 'EUR')
+  .field('EUR', 'EUR')
 
 schema.type('USD')
   .field('dolartoday', 'String')
