@@ -1,0 +1,69 @@
+{
+ "imports": [],
+ "dependencies": [],
+ "environment": [],
+ "endpoints": [],
+ "schema": {
+  "types": [
+   {
+    "name": "Root",
+    "fields": [],
+    "computedFields": [
+     {
+      "name": "dolar",
+      "type": "Dolar"
+     }
+    ],
+    "actions": [],
+    "events": []
+   },
+   {
+    "name": "Dolar",
+    "fields": [
+     {
+      "name": "USD",
+      "type": "USD"
+     },
+     {
+      "name": "USD",
+      "type": "EUR"
+     }
+    ],
+    "computedFields": [],
+    "actions": [],
+    "events": []
+   },
+   {
+    "name": "USD",
+    "fields": [
+     {
+      "name": "dolartoday",
+      "type": "String"
+     },
+     {
+      "name": "bitcoin",
+      "type": "String"
+     }
+    ],
+    "computedFields": [],
+    "actions": [],
+    "events": []
+   },
+   {
+    "name": "EUR",
+    "fields": [
+     {
+      "name": "dolartoday",
+      "type": "String"
+     }
+    ],
+    "computedFields": [],
+    "actions": [],
+    "events": []
+   }
+  ]
+ },
+ "expressions": [],
+ "database": [],
+ "isDriver": false
+}
